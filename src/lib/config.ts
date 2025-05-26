@@ -17,7 +17,7 @@ export const dashboards: Dashboard[] = [
   },
   {
     name: 'Salesforce - Delivery Overview',
-    url: 'http://localhost:3000/d-solo/felr9tnck43r4b/bestande-fertigteile-rotoclear-s3?orgId=1&from=1745411566538&to=1748003566538&timezone=browser&panelId=6&__feature.dashboardSceneSolo',
+    url: 'http://10.50.9.16:3000/d-solo/felr9tnck43r4b/bestande-fertigteile-rotoclear-s3?orgId=1&from=1745411566538&to=1748003566538&timezone=browser&panelId=6&__feature.dashboardSceneSolo',
     duration: 10
   }
   // Add more panels here
