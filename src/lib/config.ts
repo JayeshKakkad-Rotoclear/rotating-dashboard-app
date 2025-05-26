@@ -7,7 +7,7 @@ export type Dashboard = {
 export const dashboards: Dashboard[] = [
   {
     name: 'Grafana - Inventory Panel 1',
-    url: 'http://10.50.9.16:3000/d-solo/felr9tnck43r4b/bestande-fertigteile-rotoclear-s3?orgId=1&from=1745411566538&to=1748003566538&timezone=browser&panelId=11&__feature.dashboardSceneSolo',
+    url: 'http://localhost:3000/public/dashboard/4e106491-cd87-4d99-a530-988f7b9d5821',
     duration: 10
   },
   {
