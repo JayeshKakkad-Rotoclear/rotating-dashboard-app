@@ -52,7 +52,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 1);
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -65,7 +65,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 1);
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1rem;
