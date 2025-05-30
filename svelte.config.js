@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from 'sveltekit/vite';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
-export default {
+const config = {
   kit: {
     adapter: adapter(),
     prerender: {
@@ -10,3 +10,5 @@ export default {
   },
   preprocess: vitePreprocess()
 };
+
+export default config;
