@@ -41,6 +41,20 @@
   $: formattedTime = currentTime.toLocaleTimeString();
 </script>
 
+<div class="overlay">{currentDashboard.name}</div>
+
+<div class="clock">{formattedTime}</div>
+
+{#if show}
+  <div class="iframe-container" transition:fade="{{ duration: 500 }}">
+    <iframe
+      src={currentDashboard.url}
+      title={currentDashboard.name}
+      allowfullscreen
+    ></iframe>
+  </div>
+{/if}
+
 <style>
   iframe {
     width: 100vw;
@@ -55,7 +69,7 @@
     background-color: rgba(0, 0, 0, 1);
     color: white;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: sans-serif;
     z-index: 10;
     border-bottom-right-radius: 8px;
@@ -68,7 +82,7 @@
     background-color: rgba(0, 0, 0, 1);
     color: white;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: monospace;
     z-index: 10;
     border-bottom-left-radius: 8px;
@@ -83,17 +97,3 @@
     z-index: 0;
   }
 </style>
-
-<div class="overlay">{currentDashboard.name}</div>
-
-<div class="clock">{formattedTime}</div>
-
-{#if show}
-  <div class="iframe-container" transition:fade="{{ duration: 500 }}">
-    <iframe
-      src={currentDashboard.url}
-      title={currentDashboard.name}
-      allowfullscreen
-    ></iframe>
-  </div>
-{/if}
