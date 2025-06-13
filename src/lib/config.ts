@@ -49,5 +49,15 @@ export const dashboards: Dashboard[] = [
     name: 'C2 Diagnose',
     url: 'http://10.50.9.16:3000/d-solo/aeluj7kgw7q4gd/kennzahlen?orgId=1&panelId=4&__feature.dashboardSceneSolo',
     duration: 30
+  },
+  {
+    name: 'Wöchentliche Ziele Aktuelle Woche',
+    url: 'https://www.canva.com/design/DAGqOtTMIXE/lYSkFpokUCaIPtYdGkFEiA/view?embed',
+    duration: 30
+  },
+  {
+    name: 'Wöchentliche Ziele Letzte Woche',
+    url: 'https://www.canva.com/design/DAGqOrssNBw/0y2OOOBZZjY59XUOS6AQOg/view?embed',
+    duration: 30
   }
 ];
